@@ -1,9 +1,0 @@
-git branch new_branch_name or git checkout -b new_branch_name
-
-fast-forward merges only happen when no new commits are on the master branch
-
-git checkout branch_name
-
-git branch -d branch_name
-
-when the master and merging branch both have commits that are conflicting
