@@ -7,7 +7,7 @@ const fruit = ['Apple', 'Apricot', 'Avocado 🥑', 'Banana', 'Bilberry', 'Blackb
 function search(str) {
 	// let results = [];
 	console.log(str)
-	let results = fruit.filter((v) => v.toLowerCase().includes(str))
+	let results = fruit.filter((v) => v.toLowerCase().includes(str.toLowerCase()))
 	// TODO
 	console.log(results)
 	return showSuggestions(results);
