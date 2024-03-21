@@ -1,0 +1,9 @@
+1. HyperText Transer Protocol its how browsers and servers communicate
+2. the address of a webpage and what is communicated
+3. Domain Name Server. takes the url of a webpage and translates that to it ip address to serve you a webpage
+4. qury string in something you are searching being presented to the server ?q=
+5. GET is retrieving items and POST is creating and item
+6. a request being made to the server to find, change, direct etc.
+7. the response to the request being made. serving you a webpage or search results.
+8. HTTP headers let the client and the server pass additional information with an HTTP request or response.GET and POST
+9. you make a get request being that url, then site.com is search for and translated into its IP, it then asks for /some/page.html while passing along a query string
