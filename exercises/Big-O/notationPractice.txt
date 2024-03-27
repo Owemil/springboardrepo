@@ -1,0 +1,37 @@
+1. O(n)
+2. O(n)
+3. O(1)
+4. O(n^3)  not sure if any of these first ten are anywhere near correct. I wasn't taught how to simplify these
+5. O(n)
+6. O(log(n))
+7. O(n log(n))
+8. O(2^n)
+9. O(1)
+10. 
+
+
+time complextiy
+1. O(n)
+2. O(n)
+3. O(1)
+4. O(1)
+5. O(n^2)
+6. O(n)
+
+
+short answer
+1. true
+2. true
+3. false
+4. O(n)
+5. O(1)
+6. O(n)
+7. O(n log(n))
+8. O(1)
+9. O(1)
+10.O(n)
+11. O(1)
+12. O(1) 
+
+bonus
+O(n)
