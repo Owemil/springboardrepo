@@ -15,3 +15,4 @@ def extract_full_names(people):
         ['Ada Lovelace', 'Grace Hopper']
     """
     return [[" ".join(person.values())]for person in people]
+

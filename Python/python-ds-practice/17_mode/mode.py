@@ -16,7 +16,7 @@ def mode(nums):
      
     for number in nums:
         curr_frequency = nums.count(number)
-        if(curr_frequency> counter):
+        if curr_frequency > counter:
             counter = curr_frequency
             num = number
  

@@ -24,16 +24,4 @@ def two_list_dictionary(keys, values):
             new_obj[key] = values[index]
         return new_obj
     else: return dict(zip(keys, values))
-        #     new_obj[key] = None
-        # else: 
-        #     new_obj[key] = values[index]
-        
-    # return new_obj
-
-    # new_obj = {}
-    # for key, value in zip(keys, values):
-    #     if value == None:
-    #         new_obj[key] = None
-    #     else: new_obj[key] = value
-    # return new_obj
-    
+       
