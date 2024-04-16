@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlib Prompts</title>
+</head>
+
+<body>
+    <h1><b>Madlibs</b></h1>
+    <form action="/story">
+        {% for item in prompts %}
+        <label for="{{item}}">{{item}}</label>
+        <input type="text" name="{{item}}"> <br>
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
