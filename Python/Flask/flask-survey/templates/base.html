@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    {% for msg in get_flashed_messages() %}
+    <p><b>{{msg}}</b></p>
+    {% endfor %}
+    {% block banner %}{% endblock %}
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <!-- {% for num in length %}
+    <form action="/questions/0">
+        <button id="start" type="submit">Question {{num}}</button>
+    </form>
+    {% endfor %} -->
+</body>
+
+</html>
