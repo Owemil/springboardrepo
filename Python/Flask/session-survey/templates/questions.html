@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}survey home{% endblock %}
+
+{% block banner %}<h1 id="title">{{title}}</h1>{% endblock %}
+
+{% block content %}
+<div id="questions">
+    <p class="q_{{q_num}}">{{question}}</p>
+</div>
+
+<form action="/answer" method="POST">
+    {% for choice in choices %}
+    <input type="radio" class="survey-answer" name="answer" value="{{choice}}" required>{{choice}}
+    {% endfor %}
+
+    {% if allow_text %}
+    <input type="text">
+    {% endif %}
+
+    <button id="start_survey" type="submit">Submit</button>
+</form>
+
+
+{% endblock %}
