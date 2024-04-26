@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Start{% endblock %}
+
+{% block content%}
+<h1>Boggle!</h1>
+<span>Highscore:</span><span>{{highscore}}</span> <br>
+<span>Times Played:</span><span>{{ttl_plays}}</span>
+<form action="/board">
+    <button type="submit">Start Game!</button>
+</form>
+{% endblock %}
