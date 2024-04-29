@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}conversion{% endblock %}
+
+{% block header %}<h1>{{from_code}} to {{to_code}}</h1>{% endblock %}
+
+{% block content %}
+<p>{{from_symbol}}{{amount}} {{from_code}} converted to {{to_code}} is {{to_symbol}}{{result}}</p>
+<form action="/"><button type="submit">Home</button></form>
+{% endblock %}
