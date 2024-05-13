@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Edit User{% endblock %}
+
+{% block header %} <h1>Update {{user.first_name}} {{user.last_name}}s user information</h1> {% endblock %}
+
+{% block content %}
+
+<form action="/users/{{user.id}}/edit" method="POST">
+    <p>First name:<input type="text" name="f_name"></p>
+    <p>Last name:<input type="text" name="l_name"></p>
+    <p>Image URL:<input type="text" name="img_url"></p>
+    <button>Update</button>
+</form>
+<form action="/users/{{user.id}}">
+    <button>Cancel</button>
+</form>
+{% endblock %}
