@@ -9,6 +9,10 @@
     <form method="POST">
         <p>title: <input type="text" name="title" required></p>
         <p>Content: <input type="text" name="content" required></p>
+        {% for tag in tags %}
+        {{tag.name}}<input type="checkbox" name="tags" value="{{tag.id}}">
+        <br>
+        {% endfor %}
         <button>Create Post</button>
     </form>
     <form action="/users/{{user_id}}">

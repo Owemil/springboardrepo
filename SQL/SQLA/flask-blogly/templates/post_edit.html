@@ -9,6 +9,11 @@
     <form action="/posts/{{post.id}}/edit" method="POST">
         <p>Title:<input type="text" name="title"></p>
         <p>Content:<input type="text" name="content"></p>
+        {% for tag in tags %}
+        {{tag.name}}<input type="checkbox" name="tags" value="{{tag.id}}">
+        <br>
+        {% endfor %}
+
         <button>Update</button>
     </form>
     <form action="/users/{{post.user_id}}">

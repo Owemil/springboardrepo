@@ -11,6 +11,10 @@
         <br>
         <br>
         By <i>{{user.first_name}} {{user.last_name}}</i>
+
+    </p>
+    <p>
+        <b>Tags:</b> {% for tag in tags %}<i>{{tag.name}} </i>{% endfor %}
     </p>
     <form action="/posts/{{post.id}}/edit">
         <button type="submit">Edit</button>
