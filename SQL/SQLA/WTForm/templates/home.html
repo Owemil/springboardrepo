@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block header %}
+<h1>Welcome to the Adoption Agency!</h1>
+<br><br>
+<h3>Please look through all of our cuddly animals</h3>
+{% endblock %}
+
+{% block content %}
+<a href="/add"> Add a new Pet!</a>
+{% for pet in pets %}
+<div id="pets_list">
+    <p>
+        <img src="{{pet.photo_url}}" alt="" width="350" height="200">
+        <br>
+        {% if pet.available %}<a href="/{{pet.id}}">{{pet.name}}</a> is available! {% else %} {{pet.name}} adoption is
+        pending! {% endif %}
+    </p>
+</div>
+{% endfor %}
+{% endblock %}
