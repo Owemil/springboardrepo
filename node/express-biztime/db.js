@@ -1,6 +1,6 @@
 /** Database setup for BizTime. */
 const { Client } = require("pg");
-process.env.PGPASSWORD = ""
+process.env.PGPASSWORD = "Salmonidaho123!"
 const DB_URI = (process.env.NODE_ENV === "test")
     ? "postgresql:///biztime_test"
     : "postgresql:///biztime";
