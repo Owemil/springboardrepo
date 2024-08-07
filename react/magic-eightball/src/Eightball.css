@@ -1,0 +1,35 @@
+#root {
+  text-align: center;
+}
+
+.eightball {
+  display: inline-block;
+  background-color: black;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+
+  margin-top: 8%;
+
+}
+
+.eightball_banner {
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+.eightball_text {
+  color: aliceblue;
+  position: relative;
+  top: 35%;
+}
+
+.eightball_count {
+  display: inline-block;
+  position: absolute;
+  top: 23%;
+  left: 20%;
+  border: 1.3mm, solid, black;
+  padding: 2mm;
+
+}

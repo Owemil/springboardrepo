@@ -1,0 +1,50 @@
+{
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [],
+    "properties": {
+        "first_name": {
+            "type": "string",
+            "default": "",
+            "title": "The first_name Schema",
+            "examples": [
+                "silly"
+            ]
+        },
+        "last_name": {
+            "type": "string",
+            "default": "",
+            "title": "The last_name Schema",
+            "examples": [
+                "bear"
+            ]
+        },
+        "email": {
+            "type": "string",
+            "default": "",
+            "title": "The email Schema",
+            "examples": [
+                "db@db.db"
+            ]
+        },
+        "phone": {
+            "type": "string",
+            "default": "",
+            "title": "The phone Schema",
+            "examples": [
+                "498-657-9845"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "examples": [
+        {
+            "first_name": "silly",
+            "last_name": "bear",
+            "email": "db@db.db",
+            "phone": "498-657-9845"
+        }
+    ]
+}
