@@ -1,0 +1,7 @@
+.Board {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1mm solid black;
+  border-radius: 20%;
+  background: seagreen;
+}
