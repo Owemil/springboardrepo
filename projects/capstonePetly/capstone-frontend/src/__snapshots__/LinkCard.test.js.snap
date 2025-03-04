@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot (meta) 1`] = `[Function]`;
+
+exports[`should match snapshot (search-Cats) 1`] = `[Function]`;
+
+exports[`should match snapshot (search-Dogs) 1`] = `[Function]`;
+
+exports[`should match snapshot (search-Organizations) 1`] = `[Function]`;
+
+exports[`should match snapshot (search-OtherAnimals) 1`] = `[Function]`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot (fav) 1`] = `[Function]`;
+
+exports[`should match snapshot (nearby) 1`] = `[Function]`;
+
+exports[`should match snapshot (search) 1`] = `[Function]`;

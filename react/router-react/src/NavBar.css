@@ -1,9 +1,0 @@
-.navBar a {
-    padding: 1em;
-    color: black;
-}
-
-.navBar a.active {
-    padding: 1em;
-    color: goldenrod;
-}

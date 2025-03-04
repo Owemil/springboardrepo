@@ -1,0 +1,17 @@
+.animal-card {
+    display: inline-block;
+}
+
+.nearby-banner {
+    margin-left: 16rem;
+}
+
+.petly-header {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.lc-container {
+    margin-bottom: 7rem;
+}

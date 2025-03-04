@@ -1,0 +1,21 @@
+.animal-pics {
+    display: inline-block;
+    background: black;
+    width: 100vw;
+
+}
+
+.animal-header,
+.other-cards,
+.about-header {
+    text-align: center;
+}
+
+/* .other-cards {
+    text-align: center;
+} */
+
+/* .animal-tab {
+    border: 1px solid black;
+    padding: 1rem
+} */

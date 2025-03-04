@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot (org, fav) 1`] = `[Function]`;
+
+exports[`should match snapshot (org, not fav) 1`] = `[Function]`;
+
+exports[`should match snapshot (pet, fav) 1`] = `[Function]`;
+
+exports[`should match snapshot (pet, not fav) 1`] = `[Function]`;

@@ -1,0 +1,33 @@
+.card-img {
+    z-index: 97;
+    height: 250px;
+
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-animal {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.card-animal :hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 6px black;
+}
+
+
+.fav-btn {
+    position: absolute;
+    z-index: 98;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+}
+
+.fav-icon {
+    text-align: center;
+}

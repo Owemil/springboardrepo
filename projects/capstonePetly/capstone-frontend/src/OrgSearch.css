@@ -1,0 +1,9 @@
+.org-cards {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.orgSearch-header {
+    text-align: center;
+}
